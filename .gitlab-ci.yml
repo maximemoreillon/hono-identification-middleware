@@ -1,5 +1,5 @@
 stages:
-  - test
+  - publish
 
 publish-job:
   stage: publish
