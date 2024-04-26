@@ -4,6 +4,9 @@
   "description": "Hono middleware for user identification",
   "author": "Maxime MOREILLON",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.ts",
   "module": "index.ts",
   "type": "module",
