@@ -1,9 +1,15 @@
 {
-  "name": "hono-identification-middleware",
+  "name": "@moreillon/hono-identification-middleware",
+  "version": "0.0.1",
+  "description": "Hono middleware for user identification",
+  "author": "Maxime MOREILLON",
+  "license": "MIT",
+  "main": "index.ts",
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run --hot server.ts"
+    "dev": "bun run --hot server.ts",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/bun": "^1.0.12",
