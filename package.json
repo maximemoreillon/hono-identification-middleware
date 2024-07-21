@@ -21,7 +21,9 @@
   "devDependencies": {
     "@types/bun": "^1.0.12",
     "bun-types": "latest",
-    "typescript": "^5.0.0",
-    "hono": "^4.2.0"
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.5.1"
   }
 }

@@ -10,8 +10,6 @@ const opts = { url: IDENTIFICATION_URL }
 app.use(middleware(opts))
 
 app.get("/", (c) => {
-  // TODO: fix typing error
-  // @ts-ignore
   const user = c.get("user")
   return c.json(user)
 })

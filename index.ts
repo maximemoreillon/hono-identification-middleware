@@ -1,6 +1,12 @@
 import { Next, Context } from "hono"
 import { HTTPException } from "hono/http-exception"
 
+declare module "hono" {
+  interface ContextVariableMap {
+    user: string
+  }
+}
+
 type Options = {
   url: string
 }
