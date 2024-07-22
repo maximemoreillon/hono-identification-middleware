@@ -1,6 +1,6 @@
 {
   "name": "@moreillon/hono-identification-middleware",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Hono middleware for user identification",
   "author": "Maxime MOREILLON",
   "license": "MIT",
